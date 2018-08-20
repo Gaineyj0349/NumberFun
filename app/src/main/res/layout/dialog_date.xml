@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<LinearLayout
+    android:id="@+id/LL1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv1dd"
+        android:textAlignment="center"
+        android:text="Month"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@id/tv1dd"
+
+        android:id="@+id/tv2dd"
+        android:textAlignment="center"
+        android:text="Day"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/LL1"
+        android:id="@+id/LL2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <NumberPicker
+
+            android:id="@+id/np1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            ></NumberPicker>
+
+
+
+
+
+        <NumberPicker
+            android:layout_below="@id/LL1"
+
+            android:id="@+id/np2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            ></NumberPicker>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/LL2"
+        android:id="@+id/button_in_dialog2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin"
+        android:text="OK" />
+
+
+
+
+
+</RelativeLayout>

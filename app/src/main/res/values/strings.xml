@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Number Trivia</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog2">This app requires internet to work.\nSelect the type of number you wish to see. (trivia/math/date/year).\nSelect a number (or random).\nWatch as the app tells you something interesting about that number!\nthough the numbersAPI has thousands of facts and trivia, not every number will have info</string>
+</resources>
